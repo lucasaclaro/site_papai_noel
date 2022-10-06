@@ -60,17 +60,24 @@
     .botaoCarta {
         width: 10vw;
         margin-top: 50px;
-        margin-left: 380px;
-        background-color: black;
+        margin-left: 360px;
+        background-color: #4b201fc2;
         text-align: center;
-        padding: 30px;
+        padding: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 
+    .botaoCarta:hover {
+        background-color: #ffc2779d;
+        color: black;
 
     }
 
     #botaoCarta {
         text-decoration: none;
-
+        color: white;
+        font-size: 1.5em;
 
     }
 
