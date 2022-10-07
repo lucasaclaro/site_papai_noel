@@ -6,8 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerando minha cartinha</title>
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/dados-pc.css">
 </head>
 <body>
-    
+    <section class="dados">
+        <div class="dados-inserir">
+            <form><legend>Coloque seus dados para que possamos te ajudar a criar sua cartinha</legend>
+                <div class="dados-preencher">
+                    <p>
+                        <label for="inome">Nome: </label>
+                        <input type="text" name="nome" id="inome" required minlength="2" maxlength="40" autocomplete="name">
+                    </p>
+                    <p>
+                        <label for="iidade">Idade: </label>
+                        <input type="number" name="idade" id="iidade">
+                    </p>
+                    <p>
+                        <label for="icidade">Cidade: </label>
+                        <input type="text" name="cidade" id="icidade" required minlength="2" maxlength="40" autocomplete="name">
+                    </p>
+                </div>                
+            </form>
+        </div>
+    </section>
 </body>
 </html>
