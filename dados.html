@@ -9,29 +9,33 @@
     <link rel="stylesheet" href="estilos/dados-pc.css">
 </head>
 <body>
+
     <section class="dados">
         <div class="dados-inserir">
-            <form><legend>Coloque seus dados para que possamos te ajudar a criar sua cartinha</legend>
+
+
+            <form class="formulario"><legend>Coloque seus dados para que possamos te ajudar a criar sua cartinha</legend>
                 <div class="dados-preencher">
                     <p>
                         <label for="inome">Nome: </label>
-                        <input type="text" name="nome" id="inome" required minlength="2" maxlength="40" autocomplete="name">
+                        <input type="text" name="nome" id="inome" placeholder="Escreva seu nome" required minlength="2" maxlength="40" autocomplete="name">
                     </p>
                     <p>
                         <label for="iidade">Idade: </label>
-                        <input type="number" name="idade" id="iidade">
+                        <input type="number" name="idade" id="iidade" placeholder="Escreva sua idade" required>
                     </p>
                     <p>
-                        <label for="icidade">Cidade: </label>
-                        <input type="text" name="cidade" id="icidade" required minlength="2" maxlength="40" autocomplete="name">
+                        <label for="ipresente">Presente: </label>
+                        <input type="text" name="presente" id="ipresente" placeholder="Escreva o que você quer de presente" required minlength="2" maxlength="40" autocomplete="name">
                     </p>
 
                     <p>
-                        <input type="button" value="Gerar cartinha" class="botao">
+                        <input type="button" value="Gerar cartinha" class="botao" onclick="gerarCarta()">
                     </p>
                 </div>                
             </form>
         </div>
     </section>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
