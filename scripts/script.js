@@ -5,7 +5,6 @@ const formulario = document.querySelector('.formulario')
 const papelDeParede = document.querySelector('.dados-inserir')
 
 function gerarCarta() {
-    formulario.style.display = 'none'
-    papelDeParede.style.background-image.url('../imagens/papel.jpg')
+
 
 }
